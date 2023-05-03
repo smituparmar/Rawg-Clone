@@ -2,7 +2,7 @@ import { HStack, Switch, Text, useColorMode } from "@chakra-ui/react";
 
 type Props = {};
 
-const ColorModeSwitch = (props: Props) => {
+const ColorModeSwitch = ({}: Props) => {
   const { toggleColorMode, colorMode } = useColorMode();
 
   return (
